@@ -1,6 +1,6 @@
 # Programming Directory 
 
-**Advance Java Programnnubg**
+**1. Advance Java Programming**
 
 - MCA SEMESTER - 2
 
