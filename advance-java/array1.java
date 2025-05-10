@@ -74,10 +74,10 @@ public class array1 {
         System.out.println("\nMy accepted array values are : ");
         x.display();
 
-        // System.out.println("\nEnter a value for searching in the list: ");
-        // int m = sc.nextInt();
+        System.out.println("\nEnter a value for searching in the list: ");
+        int m = sc.nextInt();
 
-        // x.search(m);
+        x.search(m);
 
         System.out.println("\nAfter sorting/arranging in decending order: ");
         x.arrange();
