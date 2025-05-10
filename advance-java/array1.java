@@ -46,7 +46,7 @@ public class array1 {
     void arrange(){
         for(int i=0; i<size; i++){
             for(int j=i+1; j<size; j++){
-                if(n[i]>n[j]){
+                if(n[i]<n[j]){
                     int t = n[i];
                     n[i]=n[j];
                     n[j]=t;
