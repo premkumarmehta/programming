@@ -46,10 +46,10 @@ public class array1 {
     void arrange(){
         for(int i=0; i<size; i++){
             for(int j=i+1; j<size; j++){
-                if(n[i]<n[j]){
+                if(n[i]>n[j]){
                     int t = n[i];
                     n[i]=n[j];
-                    n[i]=t;
+                    n[j]=t;
                 }
             }
         }
@@ -74,10 +74,10 @@ public class array1 {
         System.out.println("\nMy accepted array values are : ");
         x.display();
 
-        System.out.println("\nEnter a value for searching in the list: ");
-        int m = sc.nextInt();
+        // System.out.println("\nEnter a value for searching in the list: ");
+        // int m = sc.nextInt();
 
-        x.search(m);
+        // x.search(m);
 
         System.out.println("\nAfter sorting/arranging in decending order: ");
         x.arrange();
